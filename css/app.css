@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;700&family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Fira+Mono:wght@400;700&family=Roboto:wght@300;400;700&display=swap');
 
 *{
     font-family: 'Roboto', sans-serif;
@@ -91,6 +91,11 @@ text-align: center;
     background-position: center;
     background-repeat: no-repeat;
 }
+.destaque .imagem:hover{
+    width: 105%;
+    height: 350px;
+    margin: auto;
+}
 .destaque h2{
     font-size: 18px;
     font-family: 'Fira Mono', monospace;
@@ -114,7 +119,7 @@ text-align: center;
 }
 .destaque .valor small{
     color: red;
-    text-decoration: none;
+    
 }
 .destaque .adicionarCarrinho{
     display: block;
@@ -135,6 +140,81 @@ text-align: center;
     background: rgb(255, 251, 0);
     color: #941112;
     transition: all 0.6s;
+}
+
+/* SOCIAL-MIDIA */
+.social a{
+    display: inline-block;
+    width: 15%;
+    text-align: center;
+    padding: 15px 0;
+    text-decoration: none;
+    line-height: 0;
+    transition: all 0.5s;
+}
+.social a:hover{
+    transition: all 0.5s;
+    font-size: 20px;
+}
+.social h2{
+    text-align: center;
+    color: rgb(49, 49, 237);
+    
+}
+.social a i{
+    color: orangered;
+    font-size: 40px;
+}
+
+/* EMPRESA */
+.nossaEmpresa{
+    text-align: center;
+    /* padding-top: 20px; */
+    margin: 50px;
+}
+.nossaEmpresa h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 55px;
+}
+.nossaEmpresa p{
+    line-height: 1.3em;
+}
+#visitar{
+    text-shadow: #000000;
+    color: #941112;
+    margin-left: 15px;
+    font-family: 'Fira Mono', monospace;
+    
+}
+.nossaEmpresa img{
+    width: 150%;
+    margin: 0;
+    height: 220px;
+    left: 0;
+}
+
+.nossoLocal{
+    background: rgba(128, 128, 128, 0.672);
+    display: block;
+    border: 2px solid darkgray;
+}
+
+/* PRODUTOS */
+.listaProdutos{
+    padding-top: 25px;
+}
+.listaProdutos table{
+    width: 900px;
+    background-color:rgba(211, 211, 211, 0.5);
+    
+}
+.listaProdutos td{
+    padding: 8px;
+}
+.listaProdutos td button{
+    background-color: #941112;
+    padding: 0;
+    text-align: center;
 }
 /* FOOTER */
 .rodape{
